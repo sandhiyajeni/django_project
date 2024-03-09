@@ -43,3 +43,13 @@ run the django
 python manage.py runserver
 
 step10
+
+for creating app
+
+django-admin startapp appname
+
+step11
+
+in setting.py add the app name in 40 th line.
+
+step12
