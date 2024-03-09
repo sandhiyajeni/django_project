@@ -1,0 +1,43 @@
+09-03-2024
+step1:
+Create a folder
+
+step2:
+
+open terminal
+
+step3:
+
+pip install virtualenv
+
+step4:
+
+to give name to a virtualenv
+
+virtualenv name
+
+step5:
+
+To activate virtualenv
+
+name/scripts/activate
+
+step6:
+
+install django
+
+pip install django
+
+step7:
+
+django-admin startproject projectname
+
+step8:
+change the directory
+
+cd projectname
+
+step9:
+run the django
+
+python manage.py runserver
