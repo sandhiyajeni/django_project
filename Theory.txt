@@ -41,3 +41,5 @@ step9:
 run the django
 
 python manage.py runserver
+
+step10
