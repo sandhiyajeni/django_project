@@ -53,3 +53,70 @@ step11
 in setting.py add the app name in 40 th line.
 
 step12
+
+views.py 
+
+function syntax
+
+def f_name(request):
+    return HttpResponse("content")
+
+urls.py
+
+path('url_path/',views.f_name)
+
+10-03-2024
+
+url mapping
+
+project.urls
+from django.contrib import admin
+from django.urls import path,include
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('page/',include('page.urls')),
+    path('books/',include('books.urls'))
+]
+
+app1.urls
+
+from django.urls import path
+from page import views
+
+urlpatterns = [
+    path('home/',views.home)
+]
+
+
+app2.urls
+
+from django.urls import path
+from app2 import views
+
+urlpatterns = [
+    path('home/',views.home)
+]
+
+step1:
+create a folder named as template in external project folder
+
+step2:
+create a html file in that template folder
+
+step3
+
+create a function to call html file in views.py
+
+def f_name(request):
+    return render(request,"htmlfilename")
+
+step4 
+
+to call function in views.py you have urls in urls.py
+
+step5
+in setting.py
+
+in 59 line
+
+ 'DIRS': [os.path.join(BASE_DIR,"template")],
