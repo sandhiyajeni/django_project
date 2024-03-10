@@ -112,7 +112,7 @@ def f_name(request):
 
 step4 
 
-to call function in views.py you have urls in urls.py
+to call function in app.views.py you have urls in app.urls.py
 
 step5
 in setting.py
@@ -120,3 +120,11 @@ in setting.py
 in 59 line
 
  'DIRS': [os.path.join(BASE_DIR,"template")],
+
+
+DTL---Django Template Language
+
+Variable
+Conditional Statement
+Loops
+Inheritance
