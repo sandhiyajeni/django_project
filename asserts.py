@@ -1,2 +1,2 @@
-a=10
-assert a==1
+a={id:1}
+print(a[id])
