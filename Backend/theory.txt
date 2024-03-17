@@ -1,0 +1,18 @@
+crud
+
+cread
+read
+update
+delete
+
+Installed App
+Template settings
+Database settings
+Static File settings
+
+form
+
+name
+email
+mobile
+msg

@@ -128,3 +128,42 @@ Variable
 Conditional Statement
 Loops
 Inheritance
+
+
+TESTING
+
+It is a process in which product functionalities that are developed.
+To ensure that customer is satisfied with the product or to develop errorfree/bugfree
+
+Need of testing:
+
+for customer undergo different test based on condition to ensure 
+that the product is errorfree/bugfree 
+
+functionalities in web application
+
+user registration
+login
+add product
+payment gateway
+place order 
+
+each functionalities in an application is known as unit.
+
+function which is unit is tested against certain condition is known as unit testing.
+
+forms---view---db
+
+test case:submitting blank input
+conclusion:
+
+Assert keyword:is used to check condition
+
+if the condition is true it does nothing
+if the condition is false it raise an AssertionError
+
+pip install pytest
+
+test_filename.py===>test_one.py
+
+def test_functionname()
